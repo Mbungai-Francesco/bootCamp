@@ -1,0 +1,33 @@
+body {
+  /*background: opacity(0,0,0,79)*/
+  background-image:url(in2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu{
+  display: inline-flex;
+}
+.menu h1{
+  margin: 0px 100px;
+  color: #fff;
+}
+.navbar {
+  padding-left: 700px;
+}
+.navbar ul li{
+  display: inline;
+  margin: 10px;
+}
+.navbar ul li a{
+  color: #fff;
+}
+.navbar ul li a::after{
+  color: #fff;
+}
+.content{
+  position: absolute ;
+  width: 100%
+  top:50%;
+  transform: translateY(-50%);
+}
+}
